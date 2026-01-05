@@ -33,14 +33,14 @@ function Home() {
           <h1>Cadastro de Usuários</h1>
           
           <label>
-            <input type="text" name="nome" />
+            <input placeholder="Nome" type="text" name="nome" />
           </label>
           <label>
-            <input type="number" name="idade" />
+            <input placeholder="Idade" type="number" name="idade" />
           </label>
           <label>
           
-            <input type="email" name="email" />
+            <input placeholder="E-mail" type="e-mail" name="email" />
           </label>
 
           <button type="button">Cadastrar</button>
@@ -49,11 +49,11 @@ function Home() {
 
       <div className="users-wrapper">
         {users.map(user => (
-          <div className="user-card" key={user.id}>
+          <div className="card" key={user.id}>
             <div>
-              <p><strong>Nome: </strong> {user.name}</p>
-              <p><strong>Idade: </strong> {user.age}</p>
-              <p><strong>Email: </strong> {user.email}</p>
+              <p><span>Nome: </span> {user.name}</p>
+              <p><span>Idade: </span> {user.age}</p>
+              <p><span>Email: </span> {user.email}</p>
             </div>
 
             <button type="button">

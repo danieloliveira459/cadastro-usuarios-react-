@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     inline-size: 100%;
+    
 }
 
 .container {
@@ -25,12 +26,25 @@
     align-items: center;      
     gap: 20px;
     inline-size: 100%;
+    
+    & .card {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #2E2D4E;
+        inline-size: 100%;
+        max-inline-size: 400px;
+    }
+    
 }
 
 .container h1 {
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     margin-block-end: 20px;
+    text-align: center;
   
 }
 
@@ -54,11 +68,47 @@ form {
         cursor: pointer;
         color: #fff;
          padding: 10px;
+         font-size: 14px;
     }
 
-    & buttonn:hover {
+    & button:hover {
         opacity: 0.8;
 
     }
+    & input {
+        border: 1px solid #48456c;
+        border-radius: 30px;
+        block-size: 40px;
+        background-color: #363653;
+        color: #fff;
+        font-size: 16px;
+        padding-inline-start: 10px;
+        outline: none;
+
+        & p { 
+        color: #fff;
+        font-weight: bold;
+
+        & span {
+            font-weight: normal;
+
+        }
+
+    }
+    
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    & button:hover {
+        opacity: 0.5;
+
+    }
+        
+    }
 }
+
 
