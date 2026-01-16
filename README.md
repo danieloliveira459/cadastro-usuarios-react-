@@ -28,4 +28,6 @@ botão de excluir, para excluir os cadastros direto do front.
    HTML
    CSS
    JAVASCRIPT
-   REACT + VITE 
+   REACT + VITE
+
+   ## DESENVOLVIDO POR CARLOS DANIEL 
