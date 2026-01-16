@@ -1,16 +1,31 @@
-# React + Vite
+# Projeto Cadastro de usuários react +  vite, um Projeto Básico que une front-end e back-end
+# funcionalidade do sistema, cadastro de usuários com layout e inputs para cadastro do, nome, idade e email do usuário cadastrado, ele integra junto com o mongodb, um banco não relacional, que o servidor fica no ar junto com aws, 
+permitindo que o banco se integre ao prisma uma ferramenta que permite que os usuários cadastrados fique ali quando cadastrado, salvando no banco de Dados.
+botão de excluir, para excluir os cadastros direto do front.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Estrutura do Projeto##
+* Cadastro-usuarios-react-/
+*  > node_modules
+   > Src
+   > assets
+   excluir.svg
+   > pages/home
+   index.jsx
+    # style.css
+   > services
+   .api.js]
+   index.css
+   main.jsx
+   .gitinore
+   estilint.config.js
+   index.html
+   package-lock.json
+   README.md
+   vite.config.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   #TECNOLOGIAS USADAS
+   HTML
+   CSS
+   JAVASCRIPT
+   REACT + VITE 
